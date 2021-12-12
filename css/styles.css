@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  background-color: #ffe8d6;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size:5rem;
+  color: #ff971d;
+}
+
+p{
+  font-family: 'Handlee', cursive;
+  font-size: 2.5rem;
+}
+
+ul, ol{
+  font-family: 'Handlee', cursive;
+  font-size: 1.5rem;
+}
+
+hr {
+  border: dotted #ff971d 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto;
+}
+
+.img-rrmm {
+  background-image: url("../images/wisdom-kings.png");
+  position: relative;
+  background-color: #fff;
+  height: 30rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carta {
+  width: 70%;
+  margin: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#boton {
+  position: relative;
+  display: block;
+  width: auto;
+  height: 45px;
+  border-radius: 18px;
+  background-color: #ff971d;
+  border: solid 1px transparent;
+  color: #fff;
+  font-family: 'Indie Flower', cursive;
+  font-size: 26px;
+  font-weight: 300;
+  outline:none;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
