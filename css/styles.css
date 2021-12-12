@@ -42,6 +42,12 @@ hr {
   margin: auto;
 }
 
+.listado{
+  width: 60%;
+  text-align: left;
+  margin: auto;
+}
+
 .main {
   display: flex;
   flex-direction: column;
